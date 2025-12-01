@@ -1,0 +1,12 @@
+# Backend
+userspet/target
+userspet/.idea
+userspet/.mvn
+
+# Frontend
+users-with-pets-frontend/node_modules
+users-with-pets-frontend/dist
+
+# General
+.DS_Store
+.env
