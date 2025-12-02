@@ -5,7 +5,7 @@ This project fetches user data from **RandomUser API** and pet images from **Dog
 ## Tech Stack
 
 ### Backend
-- Java 25  
+- Java 17  
 - Spring Boot  
 - Maven  
 - REST Controllers  
@@ -26,7 +26,7 @@ This project fetches user data from **RandomUser API** and pet images from **Dog
 ---
 
 #### Backend runs at:
-http://localhost:8080
+http://localhost:8080/api/users-with-pet
 
 Build backend Docker image
 cd uerspet
@@ -41,5 +41,5 @@ From project root:
 cd UsersPets
 docker compose up --build
 URLs:
-Backend: http://localhost:8080
+Backend: http://localhost:8080/api/users-with-pet
 Frontend: http://localhost:3000

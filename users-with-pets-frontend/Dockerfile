@@ -1,9 +1,15 @@
-# Dockerfile
 FROM node:20 AS build
 WORKDIR /app
+
 COPY package.json package-lock.json* ./
-RUN npm install --legacy-peer-deps || true
+RUN npm ci --legacy-peer-deps
+
+# copy everything (including .env.production)
 COPY . .
+
+# verify .env.production exists
+RUN ls -la . && cat .env.production
+
 RUN npm run build
 
 FROM nginx:alpine
