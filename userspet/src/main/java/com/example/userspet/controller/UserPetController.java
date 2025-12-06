@@ -3,6 +3,8 @@ package com.example.userspet.controller;
 import com.example.userspet.model.UserWithPet;
 import com.example.userspet.service.DogService;
 import com.example.userspet.service.RandomUserService;
+import com.example.userspet.service.StaticUserService;
+import com.example.userspet.utils.EnvironmentUtil;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
@@ -17,15 +19,19 @@ public class UserPetController {
 
     private final RandomUserService randomUserService;
     private final DogService dogService;
+    private final StaticUserService staticUserService;
 
-    public UserPetController(RandomUserService randomUserService, DogService dogService) {
+    public UserPetController(RandomUserService randomUserService,
+                             DogService dogService,
+                             StaticUserService staticUserService) {
         this.randomUserService = randomUserService;
         this.dogService = dogService;
+        this.staticUserService = staticUserService;
     }
 
     @RequestMapping("/users-with-pet")
     public List<UserWithPet> getUsersPet(
-            @RequestParam(defaultValue = "10") int count,
+            @RequestParam(defaultValue = "12") int count,
             @RequestParam(required = false) String nat
     ) {
         try {
@@ -33,6 +39,12 @@ public class UserPetController {
                 throw new IllegalStateException("Count must be between 1 and 5000");
             }
 
+            // If on Render → return fast hardcoded data
+            if (EnvironmentUtil.isRender()) {
+                return staticUserService.getUsers();
+            }
+
+            // Local environment → do real API requests
             Map<String, Object> randomUsers = randomUserService.fetchUsers(count, nat);
             List<Map<String, Object>> results = (List<Map<String, Object>>) randomUsers.get("results");
 
@@ -42,6 +54,8 @@ public class UserPetController {
 
             return output;
         } catch (Exception e) {
+            e.printStackTrace(); // prints the real exception in Render logs
+            // throw e; // optionally, rethrow the original exception
             throw new IllegalStateException("Failed to fetch users and their pets");
         }
     }
