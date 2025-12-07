@@ -6,6 +6,7 @@ import './styles.css'
 import { ImDownload3, ImUsers } from 'react-icons/im'
 
 function App() {
+  const API_BASE = (import.meta.env.VITE_API_BASE as string) || "http://localhost:8080";
   const [count, setCount] = useState<number>(12)
   const [nat, setNat] = useState<string>('')
   const [users, setUsers] = useState<UserWithPet[]>([])
@@ -125,7 +126,7 @@ function App() {
         )}
       </main>
 
-      <footer><small>Backend endpoint: <code>/api/users-with-pet</code></small></footer>
+      <footer><small>Backend endpoint: <code>{API_BASE}/api/users-with-pet</code></small></footer>
     </div>
   )
 }
