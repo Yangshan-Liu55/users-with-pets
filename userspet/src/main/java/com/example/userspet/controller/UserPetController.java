@@ -41,7 +41,7 @@ public class UserPetController {
 
             // If on Render → return fast hardcoded data
             if (EnvironmentUtil.isRender()) {
-                return staticUserService.getUsers();
+                return staticUserService.getUsers(count, nat);
             }
 
             // Local environment → do real API requests
