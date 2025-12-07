@@ -14,3 +14,8 @@ body{font-family:Inter,system-ui,Arial;margin:0;background:var(--bg);color:#0f17
 .placeholder{color:var(--muted);padding:20px}
 p{word-break: break-all}
 p.country{color:blueviolet;background-color: lightsteelblue; width: 30px;display:flex;justify-content:center}
+.pagination-controls{display:flex;justify-content:center;gap:1rem;margin:1.5rem 0}
+.pagination-controls button{padding:.4rem .9rem;border-radius:6px;border:1px solid #ccc;background:var(--accent);cursor:pointer;transition:background .2s ease,opacity .2s ease}
+.pagination-controls button:disabled{background-color:var(--muted);opacity:.4;cursor:not-allowed;color:#fff}
+.page-display{font-weight:bold}
+.fetch-btn:disabled{background-color:var(--muted);opacity:.4;cursor:not-allowed}
