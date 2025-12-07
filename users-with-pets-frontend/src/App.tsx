@@ -11,6 +11,8 @@ function App() {
   const [users, setUsers] = useState<UserWithPet[]>([])
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState<string | null>(null)
+  const [page, setPage] = useState(1)
+  const itemsPerPage = 6
   const countryOptions = [
   { value: "", country: "All Countries" },
   { value: "AU", country: "Australia" },
@@ -43,6 +45,7 @@ function App() {
       setUsers([])
       let data = await fetchUsers(count, nat)
       setUsers(data)
+      setPage(1)
     } catch (err: any) {
       setError(err.message || 'Failed to fetch')
       setUsers([])
@@ -50,6 +53,10 @@ function App() {
       setLoading(false)
     }
   }
+
+  let totalPages = Math.ceil(users.length / itemsPerPage)
+  let start = (page - 1) * itemsPerPage
+  let pageItems = users.slice(start, start + itemsPerPage)
 
   return (
     <div className="container">
@@ -72,20 +79,50 @@ function App() {
 
         <label>
           Number of Users:
-          <input type="number" min={1} max={5000} value={count} onChange={(e) => setCount(Number(e.target.value))} />
+          <input type="number" name="numOfUsers"
+            min={1} max={5000}
+            value={count}
+            onChange={(e) => setCount(Number(e.target.value))}
+          />
         </label>
 
-        <button onClick={handleFetch} disabled={loading}><ImDownload3 /> {loading ? 'Loading…' : 'Fetch Data'} </button>
-        <p>Showing {count > 1 ? count + ' users' : count + ' user'}</p>
+        <button className="fetch-btn" onClick={handleFetch} disabled={loading || count < 1 || count > 5000}>
+          <ImDownload3 /> {loading ? 'Loading…' : 'Fetch Data'}
+        </button>
+        <p>{count < 1 || count > 5000 ? "Select a number between 1 to 5000" : 
+          (count == 1 ? "Showing 1 user" : "Showing " + count + " users")}
+        </p>
       </section>
 
       {error && <div className="error" role="alert">{error}</div>}
 
       <main>
         {users.length === 0 && !loading ? <div className="placeholder">No users. Click Fetch.</div> : null}
-        <div className="grid">
-          {users.map(u => <UserCard key={u.id} user={u} />)}
+        <div className="grid" key={page}>
+          {pageItems.map(u => <UserCard key={u.id} user={u} />)}
         </div>
+
+        {users.length > 0 && (
+          <div className="pagination-controls">
+            <button
+              disabled={page === 1}
+              onClick={() => setPage(page - 1)}
+            >
+              Prev
+            </button>
+
+            <span className="page-display">
+              {page} / {totalPages}
+            </span>
+
+            <button
+              disabled={page === totalPages}
+              onClick={() => setPage(page + 1)}
+            >
+              Next
+            </button>
+          </div>
+        )}
       </main>
 
       <footer><small>Backend endpoint: <code>/api/users-with-pet</code></small></footer>
