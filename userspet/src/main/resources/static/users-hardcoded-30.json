@@ -1,0 +1,394 @@
+{
+  "results": [
+    {
+      "country": "NZ",
+      "dob": {
+        "date": "1990-06-18T01:03:53.100Z",
+        "age": 35
+      },
+      "email": "jasper.taylor@example.com",
+      "gender": "male",
+      "id": null,
+      "name": "Jasper Taylor",
+      "petImage": "https://images.dog.ceo/breeds/terrier-kerryblue/n02093859_1969.jpg",
+      "phone": "(473)-528-5820"
+    },
+    {
+      "country": "NZ",
+      "dob": {
+        "date": "1947-03-16T16:12:26.031Z",
+        "age": 78
+      },
+      "email": "connor.hughes@example.com",
+      "gender": "male",
+      "id": null,
+      "name": "Connor Hughes",
+      "petImage": "https://images.dog.ceo/breeds/appenzeller/n02107908_754.jpg",
+      "phone": "(197)-457-4053"
+    },
+    {
+      "country": "ES",
+      "dob": {
+        "date": "1996-05-18T10:54:29.737Z",
+        "age": 29
+      },
+      "email": "rosario.parra@example.com",
+      "gender": "female",
+      "id": "97685948-Z",
+      "name": "Rosario Parra",
+      "petImage": "https://images.dog.ceo/breeds/finnish-lapphund/mochilamvan.jpg",
+      "phone": "970-076-378"
+    },
+    {
+      "country": "AU",
+      "dob": {
+        "date": "1999-03-27T07:41:48.240Z",
+        "age": 26
+      },
+      "email": "carlos.bailey@example.com",
+      "gender": "male",
+      "id": "555353411",
+      "name": "Carlos Bailey",
+      "petImage": "https://images.dog.ceo/breeds/mexicanhairless/n02113978_2546.jpg",
+      "phone": "07-1915-9906"
+    },
+    {
+      "country": "DK",
+      "dob": {
+        "date": "1993-09-24T04:56:23.536Z",
+        "age": 32
+      },
+      "email": "maria.kristensen@example.com",
+      "gender": "female",
+      "id": "230993-2701",
+      "name": "Maria Kristensen",
+      "petImage": "https://images.dog.ceo/breeds/ovcharka-caucasian/IMG_20200206_195949.jpg",
+      "phone": "11239833"
+    },
+    {
+      "country": "FR",
+      "dob": {
+        "date": "1998-04-17T22:33:21.906Z",
+        "age": 27
+      },
+      "email": "elias.lecomte@example.com",
+      "gender": "male",
+      "id": "1980328316234 52",
+      "name": "Elias Lecomte",
+      "petImage": "https://images.dog.ceo/breeds/lhasa/n02098413_3741.jpg",
+      "phone": "02-88-60-09-87"
+    },
+    {
+      "country": "NO",
+      "dob": {
+        "date": "1999-11-30T21:31:46.412Z",
+        "age": 26
+      },
+      "email": "sham.hennum@example.com",
+      "gender": "female",
+      "id": "30119937201",
+      "name": "Sham Hennum",
+      "petImage": "https://images.dog.ceo/breeds/komondor/n02105505_4021.jpg",
+      "phone": "25305910"
+    },
+    {
+      "country": "IN",
+      "dob": {
+        "date": "1950-03-05T03:53:58.680Z",
+        "age": 75
+      },
+      "email": "devashree.dalvi@example.com",
+      "gender": "female",
+      "id": "745318526006",
+      "name": "Devashree Dalvi",
+      "petImage": "https://images.dog.ceo/breeds/dingo/n02115641_6250.jpg",
+      "phone": "9857689714"
+    },
+    {
+      "country": "DK",
+      "dob": {
+        "date": "1968-07-22T23:02:46.357Z",
+        "age": 57
+      },
+      "email": "astrid.poulsen@example.com",
+      "gender": "female",
+      "id": "220768-5252",
+      "name": "Astrid Poulsen",
+      "petImage": "https://images.dog.ceo/breeds/terrier-scottish/n02097298_3589.jpg",
+      "phone": "06896354"
+    },
+    {
+      "country": "DE",
+      "dob": {
+        "date": "1945-10-15T10:34:58.712Z",
+        "age": 80
+      },
+      "email": "anne-marie.linz@example.com",
+      "gender": "female",
+      "id": "62 151045 L 802",
+      "name": "Anne-Marie Linz",
+      "petImage": "https://images.dog.ceo/breeds/hound-walker/n02089867_1988.jpg",
+      "phone": "0422-7885627"
+    },
+    {
+      "country": "IE",
+      "dob": {
+        "date": "1992-08-15T22:25:14.882Z",
+        "age": 33
+      },
+      "email": "gordon.cruz@example.com",
+      "gender": "male",
+      "id": "9990690T",
+      "name": "Gordon Cruz",
+      "petImage": "https://images.dog.ceo/breeds/terrier-andalusian/El-Bodeguero-Andaluz-caracteristicas-de-un-perro-ratonero-perro-cuatro-patas_872f0926-e6bc-4916-913d-5a3156c6fba0_480x480.jpg",
+      "phone": "071-515-7540"
+    },
+    {
+      "country": "IR",
+      "dob": {
+        "date": "1957-09-07T06:55:11.717Z",
+        "age": 68
+      },
+      "email": "swgnd.hydry@example.com",
+      "gender": "female",
+      "id": null,
+      "name": "سوگند حیدری",
+      "petImage": "https://images.dog.ceo/breeds/shiba/shiba-13.jpg",
+      "phone": "089-68993163"
+    },
+    {
+      "country": "BR",
+      "dob": {
+        "date": "1989-11-30T10:09:43.403Z",
+        "age": 36
+      },
+      "email": "omar.rezende@example.com",
+      "gender": "male",
+      "id": "495.560.545-95",
+      "name": "Omar Rezende",
+      "petImage": "https://images.dog.ceo/breeds/mexicanhairless/n02113978_3655.jpg",
+      "phone": "(71) 6318-8841"
+    },
+    {
+      "country": "IR",
+      "dob": {
+        "date": "1995-05-26T20:15:19.416Z",
+        "age": 30
+      },
+      "email": "aarshy.mwswy@example.com",
+      "gender": "male",
+      "id": null,
+      "name": "عرشيا موسوی",
+      "petImage": "https://images.dog.ceo/breeds/australian-shepherd/pepper2.jpg",
+      "phone": "019-76967384"
+    },
+    {
+      "country": "US",
+      "dob": {
+        "date": "1955-05-13T19:15:06.431Z",
+        "age": 70
+      },
+      "email": "jean.morris@example.com",
+      "gender": "female",
+      "id": "364-85-9778",
+      "name": "Jean Morris",
+      "petImage": "https://images.dog.ceo/breeds/otterhound/n02091635_831.jpg",
+      "phone": "(608) 860-4375"
+    },
+    {
+      "country": "US",
+      "dob": {
+        "date": "1953-07-12T13:18:16.321Z",
+        "age": 72
+      },
+      "email": "edgar.hamilton@example.com",
+      "gender": "male",
+      "id": "688-24-2535",
+      "name": "Edgar Hamilton",
+      "petImage": "https://images.dog.ceo/breeds/labradoodle/Cali.jpg",
+      "phone": "(444) 416-4319"
+    },
+    {
+      "country": "NZ",
+      "dob": {
+        "date": "1991-03-14T17:19:36.515Z",
+        "age": 34
+      },
+      "email": "zachary.thomas@example.com",
+      "gender": "male",
+      "id": null,
+      "name": "Zachary Thomas",
+      "petImage": "https://images.dog.ceo/breeds/pointer-german/n02100236_4264.jpg",
+      "phone": "(347)-460-9078"
+    },
+    {
+      "country": "DK",
+      "dob": {
+        "date": "1969-07-05T05:45:54.132Z",
+        "age": 56
+      },
+      "email": "silje.kristensen@example.com",
+      "gender": "female",
+      "id": "050769-5403",
+      "name": "Silje Kristensen",
+      "petImage": "https://images.dog.ceo/breeds/australian-shepherd/leroy.jpg",
+      "phone": "99844608"
+    },
+    {
+      "country": "BR",
+      "dob": {
+        "date": "1971-08-06T22:09:58.880Z",
+        "age": 54
+      },
+      "email": "matias.darocha@example.com",
+      "gender": "male",
+      "id": "315.999.393-34",
+      "name": "Matias da Rocha",
+      "petImage": "https://images.dog.ceo/breeds/whippet/n02091134_17467.jpg",
+      "phone": "(71) 4707-8720"
+    },
+    {
+      "country": "NO",
+      "dob": {
+        "date": "1981-02-09T22:44:50.835Z",
+        "age": 44
+      },
+      "email": "amelia.klausen@example.com",
+      "gender": "female",
+      "id": "09028112294",
+      "name": "Amelia Klausen",
+      "petImage": "https://images.dog.ceo/breeds/eskimo/n02109961_2932.jpg",
+      "phone": "36367449"
+    },
+    {
+      "country": "DE",
+      "dob": {
+        "date": "1992-01-28T04:28:01.790Z",
+        "age": 33
+      },
+      "email": "edmund.jensen@example.com",
+      "gender": "male",
+      "id": "20 270192 J 064",
+      "name": "Edmund Jensen",
+      "petImage": "https://images.dog.ceo/breeds/gaddi-indian/Gaddi.jpg",
+      "phone": "0294-9648059"
+    },
+    {
+      "country": "UA",
+      "dob": {
+        "date": "1972-07-07T02:44:21.524Z",
+        "age": 53
+      },
+      "email": "svitoslav.rudik@example.com",
+      "gender": "male",
+      "id": null,
+      "name": "Svitoslav Rudik",
+      "petImage": "https://images.dog.ceo/breeds/terrier-irish/n02093991_4819.jpg",
+      "phone": "(096) E07-9790"
+    },
+    {
+      "country": "ES",
+      "dob": {
+        "date": "1999-07-28T07:31:45.372Z",
+        "age": 26
+      },
+      "email": "cristobal.garrido@example.com",
+      "gender": "male",
+      "id": "92170806-L",
+      "name": "Cristóbal Garrido",
+      "petImage": "https://images.dog.ceo/breeds/terrier-kerryblue/n02093859_3179.jpg",
+      "phone": "911-248-591"
+    },
+    {
+      "country": "FI",
+      "dob": {
+        "date": "1958-07-27T11:11:10.678Z",
+        "age": 67
+      },
+      "email": "enni.lampi@example.com",
+      "gender": "female",
+      "id": "NaNNA768undefined",
+      "name": "Enni Lampi",
+      "petImage": "https://images.dog.ceo/breeds/spitz-indian/Indian_Spitz.jpg",
+      "phone": "06-032-512"
+    },
+    {
+      "country": "BR",
+      "dob": {
+        "date": "1964-09-30T08:10:27.144Z",
+        "age": 61
+      },
+      "email": "walesca.pinto@example.com",
+      "gender": "female",
+      "id": "688.673.469-65",
+      "name": "Walesca Pinto",
+      "petImage": "https://images.dog.ceo/breeds/rottweiler/n02106550_11564.jpg",
+      "phone": "(72) 9839-2095"
+    },
+    {
+      "country": "FI",
+      "dob": {
+        "date": "1976-05-02T20:55:27.598Z",
+        "age": 49
+      },
+      "email": "roope.kuusisto@example.com",
+      "gender": "male",
+      "id": "NaNNA267undefined",
+      "name": "Roope Kuusisto",
+      "petImage": "https://images.dog.ceo/breeds/cattledog-australian/IMG_3056.jpg",
+      "phone": "04-227-570"
+    },
+    {
+      "country": "IR",
+      "dob": {
+        "date": "1949-12-03T10:39:19.900Z",
+        "age": 76
+      },
+      "email": "awyn.nkwnzr@example.com",
+      "gender": "female",
+      "id": null,
+      "name": "آوین نكو نظر",
+      "petImage": "https://images.dog.ceo/breeds/retriever-golden/Z6A_4365_200807.jpg",
+      "phone": "067-09569470"
+    },
+    {
+      "country": "GB",
+      "dob": {
+        "date": "1963-11-25T18:24:46.368Z",
+        "age": 62
+      },
+      "email": "allie.neal@example.com",
+      "gender": "female",
+      "id": "RP 00 13 43 B",
+      "name": "Allie Neal",
+      "petImage": "https://images.dog.ceo/breeds/chihuahua/n02085620_473.jpg",
+      "phone": "0181 953 7186"
+    },
+    {
+      "country": "CA",
+      "dob": {
+        "date": "1972-09-24T10:22:40.740Z",
+        "age": 53
+      },
+      "email": "sophia.gagne@example.com",
+      "gender": "female",
+      "id": "030309124",
+      "name": "Sophia Gagné",
+      "petImage": "https://images.dog.ceo/breeds/pitbull/dog-3981540_1280.jpg",
+      "phone": "F53 X46-6663"
+    },
+    {
+      "country": "FR",
+      "dob": {
+        "date": "1951-10-14T16:47:53.938Z",
+        "age": 74
+      },
+      "email": "kais.guillaume@example.com",
+      "gender": "male",
+      "id": "1510928716308 77",
+      "name": "Kaïs Guillaume",
+      "petImage": "https://images.dog.ceo/breeds/terrier-andalusian/El-Bodeguero-Andaluz-caracteristicas-de-un-perro-ratonero-cachorro_9f98dd41-7aa4-4bd7-9554-eb616aafa4a0.jpg",
+      "phone": "03-99-87-79-27"
+    }
+  ]
+}
