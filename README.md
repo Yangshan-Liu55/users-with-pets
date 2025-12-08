@@ -49,4 +49,4 @@ https://users-with-pets.onrender.com/api/users-with-pet
 > Render free tier blocks outbound HTTP requests for 30–50 seconds while the instance spins up from “sleep” state. So UsersWithPets data is hardcoded just for testing.
 
 #### Frontend deployed to Vercel
-https://users-with-pets-qokr-ei484ipgf-yangshan-liu55s-projects.vercel.app
+https://users-with-pets-qokr.vercel.app
