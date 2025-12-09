@@ -50,3 +50,7 @@ https://users-with-pets.onrender.com/api/users-with-pet
 
 #### Frontend deployed to Vercel
 https://users-with-pets-qokr.vercel.app
+
+#### Screenshot Collection (PDF)
+All app screenshots are available in a single consolidated PDF:  
+![View Uers with Pets Screenshots](Users_with_pets_screenshots.pdf)
